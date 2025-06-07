@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Deeply Immersive Journeys",
-  description: "Engage with remote cultures and wildlife through small-group outings led by naturalists, historians, and conservationists.",
+  title: "Ultra-Luxury River Journeys",
+  description: "Explore the Amazon, Mekong, and Galápagos on elegant vessels blending five-star comfort with wild landscapes.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Spectacular Natural Settings",
-  description: "Sail through jungle rivers, coral reefs, and volcanic islands—where few others go, and nature thrives.",
+  title: "Fine Dining Onboard",
+  description: "Savor locally inspired dishes curated by acclaimed chefs, reflecting the culinary richness of each destination.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Stylish, Intimate Ships & Suites",
-  description: "Travel in spacious suites aboard architecturally stunning vessels with gourmet cuisine, spa services, and world-class amenities.",
+  title: "Curated Wildlife Encounters",
+  description: "Join expert naturalists on daily excursions via skiff or kayak for unforgettable up-close wildlife moments.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated, Enriching Itineraries",
-  description: "Each trip is designed for discovery, blending soft adventure with cultural insight and personalized luxury.",
+  title: "Exclusive, Intimate Cruising",
+  description: "With just 16–20 suites per ship, experience personalized service and refined luxury in remote regions.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Aqua Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
